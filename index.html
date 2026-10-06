@@ -117,6 +117,13 @@ dialog.sheet[open]{animation:slide .3s ease-out}
 .th .beam,.th .scr{fill:var(--blue-soft);stroke:none}
 .th .lead{stroke:var(--blue);stroke-width:1}
 .th text{font-family:var(--mono);font-size:12px;letter-spacing:.06em;fill:var(--ink)}
+.th .dot,.th .tally{fill:var(--blue);stroke:none}
+.th .film{stroke:var(--blue);stroke-dasharray:6 6}
+.th .reel{stroke:var(--blue)}
+.th text.small{fill:var(--dim);font-size:11px}
+.th text.logo{font-family:var(--display);font-weight:700;font-size:22px;letter-spacing:.06em}
+.sk-btn{margin-top:10px;font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;background:transparent;color:var(--ink);border:1px solid var(--rule);border-radius:2px;padding:8px 10px;cursor:pointer}
+.sk-btn:hover{border-color:var(--blue)}
 .th-fig figcaption{font-size:.86rem;color:var(--dim);margin-top:6px}
 .reel-list{list-style:none;padding:0;margin:0 0 1.2em;border-top:1px solid var(--rule)}
 .reel-list li{display:grid;grid-template-columns:56px 1fr;gap:14px;padding:11px 0;border-bottom:1px solid var(--rule)}
@@ -278,6 +285,25 @@ footer p{margin:0 0 8px}
 
       <article class="topic" data-id="film" data-part="Film magazine" hidden>
         <h3 tabindex="-1">What does &ldquo;15/70&rdquo; mean?</h3>
+        <figure class="th-fig">
+<svg class="th" id="sk-film" viewBox="0 0 520 275" role="img" aria-labelledby="sk-film-t"><title id="sk-film-t">Sketch comparing a 35mm film strip that runs up and down with an IMAX 15/70 film strip that runs sideways, where one frame is 15 perforations long</title>
+<defs><clipPath id="clip35"><rect x="20" y="20" width="59.5" height="212"/></clipPath><clipPath id="clip1570"><rect x="110" y="60" width="390" height="119"/></clipPath></defs>
+<path pathLength="1" class="dl" d="M20.0 20.0 H79.5 V232.0 H20.0 Z"/>
+<g clip-path="url(#clip35)"><g><path pathLength="1" class="dl" d="M31.9 -9.1 H67.6 V16.7 H31.9 Z M31.9 23.2 H67.6 V49.0 H31.9 Z M31.9 55.5 H67.6 V81.3 H31.9 Z M31.9 87.8 H67.6 V113.6 H31.9 Z M31.9 120.1 H67.6 V145.9 H31.9 Z M31.9 152.4 H67.6 V178.2 H31.9 Z M31.9 184.7 H67.6 V210.5 H31.9 Z M31.9 217.0 H67.6 V242.8 H31.9 Z M31.9 249.3 H67.6 V275.1 H31.9 Z M31.9 281.6 H67.6 V307.4 H31.9 Z"/><path pathLength="1" class="dl sp" d="M23.0 -10.3 H27.5 V-6.9 H23.0 Z M72.0 -10.3 H76.5 V-6.9 H72.0 Z M23.0 -2.2 H27.5 V1.2 H23.0 Z M72.0 -2.2 H76.5 V1.2 H72.0 Z M23.0 5.9 H27.5 V9.3 H23.0 Z M72.0 5.9 H76.5 V9.3 H72.0 Z M23.0 13.9 H27.5 V17.3 H23.0 Z M72.0 13.9 H76.5 V17.3 H72.0 Z M23.0 22.0 H27.5 V25.4 H23.0 Z M72.0 22.0 H76.5 V25.4 H72.0 Z M23.0 30.1 H27.5 V33.5 H23.0 Z M72.0 30.1 H76.5 V33.5 H72.0 Z M23.0 38.1 H27.5 V41.5 H23.0 Z M72.0 38.1 H76.5 V41.5 H72.0 Z M23.0 46.2 H27.5 V49.6 H23.0 Z M72.0 46.2 H76.5 V49.6 H72.0 Z M23.0 54.3 H27.5 V57.7 H23.0 Z M72.0 54.3 H76.5 V57.7 H72.0 Z M23.0 62.4 H27.5 V65.8 H23.0 Z M72.0 62.4 H76.5 V65.8 H72.0 Z M23.0 70.4 H27.5 V73.8 H23.0 Z M72.0 70.4 H76.5 V73.8 H72.0 Z M23.0 78.5 H27.5 V81.9 H23.0 Z M72.0 78.5 H76.5 V81.9 H72.0 Z M23.0 86.6 H27.5 V90.0 H23.0 Z M72.0 86.6 H76.5 V90.0 H72.0 Z M23.0 94.7 H27.5 V98.1 H23.0 Z M72.0 94.7 H76.5 V98.1 H72.0 Z M23.0 102.8 H27.5 V106.2 H23.0 Z M72.0 102.8 H76.5 V106.2 H72.0 Z M23.0 110.8 H27.5 V114.2 H23.0 Z M72.0 110.8 H76.5 V114.2 H72.0 Z M23.0 118.9 H27.5 V122.3 H23.0 Z M72.0 118.9 H76.5 V122.3 H72.0 Z M23.0 127.0 H27.5 V130.4 H23.0 Z M72.0 127.0 H76.5 V130.4 H72.0 Z M23.0 135.1 H27.5 V138.5 H23.0 Z M72.0 135.1 H76.5 V138.5 H72.0 Z M23.0 143.1 H27.5 V146.5 H23.0 Z M72.0 143.1 H76.5 V146.5 H72.0 Z M23.0 151.2 H27.5 V154.6 H23.0 Z M72.0 151.2 H76.5 V154.6 H72.0 Z M23.0 159.3 H27.5 V162.7 H23.0 Z M72.0 159.3 H76.5 V162.7 H72.0 Z M23.0 167.3 H27.5 V170.8 H23.0 Z M72.0 167.3 H76.5 V170.8 H72.0 Z M23.0 175.4 H27.5 V178.8 H23.0 Z M72.0 175.4 H76.5 V178.8 H72.0 Z M23.0 183.5 H27.5 V186.9 H23.0 Z M72.0 183.5 H76.5 V186.9 H72.0 Z M23.0 191.6 H27.5 V195.0 H23.0 Z M72.0 191.6 H76.5 V195.0 H72.0 Z M23.0 199.7 H27.5 V203.1 H23.0 Z M72.0 199.7 H76.5 V203.1 H72.0 Z M23.0 207.7 H27.5 V211.1 H23.0 Z M72.0 207.7 H76.5 V211.1 H72.0 Z M23.0 215.8 H27.5 V219.2 H23.0 Z M72.0 215.8 H76.5 V219.2 H72.0 Z M23.0 223.9 H27.5 V227.3 H23.0 Z M72.0 223.9 H76.5 V227.3 H72.0 Z M23.0 231.9 H27.5 V235.3 H23.0 Z M72.0 231.9 H76.5 V235.3 H72.0 Z M23.0 240.0 H27.5 V243.4 H23.0 Z M72.0 240.0 H76.5 V243.4 H72.0 Z M23.0 248.1 H27.5 V251.5 H23.0 Z M72.0 248.1 H76.5 V251.5 H72.0 Z M23.0 256.2 H27.5 V259.6 H23.0 Z M72.0 256.2 H76.5 V259.6 H72.0 Z"/><animateTransform attributeName="transform" type="translate" from="0 0" to="0 32.30" dur="1.6s" repeatCount="indefinite"/></g></g>
+<path pathLength="1" class="dl" d="M110.0 60.0 H500.0 V179.0 H110.0 Z"/>
+<g clip-path="url(#clip1570)"><g><path pathLength="1" class="dl" d="M13.3 78.3 H131.6 V160.7 H13.3 Z M134.4 78.3 H252.7 V160.7 H134.4 Z M255.5 78.3 H373.8 V160.7 H255.5 Z M376.6 78.3 H495.0 V160.7 H376.6 Z M497.8 78.3 H616.1 V160.7 H497.8 Z M618.9 78.3 H737.2 V160.7 H618.9 Z"/><path pathLength="1" class="dl sp" d="M5.8 64.0 H9.8 V70.0 H5.8 Z M5.8 169.0 H9.8 V175.0 H5.8 Z M13.9 64.0 H17.9 V70.0 H13.9 Z M13.9 169.0 H17.9 V175.0 H13.9 Z M22.0 64.0 H26.0 V70.0 H22.0 Z M22.0 169.0 H26.0 V175.0 H22.0 Z M30.0 64.0 H34.0 V70.0 H30.0 Z M30.0 169.0 H34.0 V175.0 H30.0 Z M38.1 64.0 H42.1 V70.0 H38.1 Z M38.1 169.0 H42.1 V175.0 H38.1 Z M46.2 64.0 H50.2 V70.0 H46.2 Z M46.2 169.0 H50.2 V175.0 H46.2 Z M54.2 64.0 H58.2 V70.0 H54.2 Z M54.2 169.0 H58.2 V175.0 H54.2 Z M62.3 64.0 H66.3 V70.0 H62.3 Z M62.3 169.0 H66.3 V175.0 H62.3 Z M70.4 64.0 H74.4 V70.0 H70.4 Z M70.4 169.0 H74.4 V175.0 H70.4 Z M78.5 64.0 H82.5 V70.0 H78.5 Z M78.5 169.0 H82.5 V175.0 H78.5 Z M86.6 64.0 H90.6 V70.0 H86.6 Z M86.6 169.0 H90.6 V175.0 H86.6 Z M94.6 64.0 H98.6 V70.0 H94.6 Z M94.6 169.0 H98.6 V175.0 H94.6 Z M102.7 64.0 H106.7 V70.0 H102.7 Z M102.7 169.0 H106.7 V175.0 H102.7 Z M110.8 64.0 H114.8 V70.0 H110.8 Z M110.8 169.0 H114.8 V175.0 H110.8 Z M118.8 64.0 H122.8 V70.0 H118.8 Z M118.8 169.0 H122.8 V175.0 H118.8 Z M126.9 64.0 H130.9 V70.0 H126.9 Z M126.9 169.0 H130.9 V175.0 H126.9 Z M135.0 64.0 H139.0 V70.0 H135.0 Z M135.0 169.0 H139.0 V175.0 H135.0 Z M143.1 64.0 H147.1 V70.0 H143.1 Z M143.1 169.0 H147.1 V175.0 H143.1 Z M151.2 64.0 H155.2 V70.0 H151.2 Z M151.2 169.0 H155.2 V175.0 H151.2 Z M159.2 64.0 H163.2 V70.0 H159.2 Z M159.2 169.0 H163.2 V175.0 H159.2 Z M167.3 64.0 H171.3 V70.0 H167.3 Z M167.3 169.0 H171.3 V175.0 H167.3 Z M175.4 64.0 H179.4 V70.0 H175.4 Z M175.4 169.0 H179.4 V175.0 H175.4 Z M183.4 64.0 H187.4 V70.0 H183.4 Z M183.4 169.0 H187.4 V175.0 H183.4 Z M191.5 64.0 H195.5 V70.0 H191.5 Z M191.5 169.0 H195.5 V175.0 H191.5 Z M199.6 64.0 H203.6 V70.0 H199.6 Z M199.6 169.0 H203.6 V175.0 H199.6 Z M207.7 64.0 H211.7 V70.0 H207.7 Z M207.7 169.0 H211.7 V175.0 H207.7 Z M215.8 64.0 H219.8 V70.0 H215.8 Z M215.8 169.0 H219.8 V175.0 H215.8 Z M223.8 64.0 H227.8 V70.0 H223.8 Z M223.8 169.0 H227.8 V175.0 H223.8 Z M231.9 64.0 H235.9 V70.0 H231.9 Z M231.9 169.0 H235.9 V175.0 H231.9 Z M240.0 64.0 H244.0 V70.0 H240.0 Z M240.0 169.0 H244.0 V175.0 H240.0 Z M248.0 64.0 H252.0 V70.0 H248.0 Z M248.0 169.0 H252.0 V175.0 H248.0 Z M256.1 64.0 H260.1 V70.0 H256.1 Z M256.1 169.0 H260.1 V175.0 H256.1 Z M264.2 64.0 H268.2 V70.0 H264.2 Z M264.2 169.0 H268.2 V175.0 H264.2 Z M272.3 64.0 H276.3 V70.0 H272.3 Z M272.3 169.0 H276.3 V175.0 H272.3 Z M280.4 64.0 H284.4 V70.0 H280.4 Z M280.4 169.0 H284.4 V175.0 H280.4 Z M288.4 64.0 H292.4 V70.0 H288.4 Z M288.4 169.0 H292.4 V175.0 H288.4 Z M296.5 64.0 H300.5 V70.0 H296.5 Z M296.5 169.0 H300.5 V175.0 H296.5 Z M304.6 64.0 H308.6 V70.0 H304.6 Z M304.6 169.0 H308.6 V175.0 H304.6 Z M312.6 64.0 H316.6 V70.0 H312.6 Z M312.6 169.0 H316.6 V175.0 H312.6 Z M320.7 64.0 H324.7 V70.0 H320.7 Z M320.7 169.0 H324.7 V175.0 H320.7 Z M328.8 64.0 H332.8 V70.0 H328.8 Z M328.8 169.0 H332.8 V175.0 H328.8 Z M336.9 64.0 H340.9 V70.0 H336.9 Z M336.9 169.0 H340.9 V175.0 H336.9 Z M344.9 64.0 H348.9 V70.0 H344.9 Z M344.9 169.0 H348.9 V175.0 H344.9 Z M353.0 64.0 H357.0 V70.0 H353.0 Z M353.0 169.0 H357.0 V175.0 H353.0 Z M361.1 64.0 H365.1 V70.0 H361.1 Z M361.1 169.0 H365.1 V175.0 H361.1 Z M369.2 64.0 H373.2 V70.0 H369.2 Z M369.2 169.0 H373.2 V175.0 H369.2 Z M377.2 64.0 H381.2 V70.0 H377.2 Z M377.2 169.0 H381.2 V175.0 H377.2 Z M385.3 64.0 H389.3 V70.0 H385.3 Z M385.3 169.0 H389.3 V175.0 H385.3 Z M393.4 64.0 H397.4 V70.0 H393.4 Z M393.4 169.0 H397.4 V175.0 H393.4 Z M401.5 64.0 H405.5 V70.0 H401.5 Z M401.5 169.0 H405.5 V175.0 H401.5 Z M409.5 64.0 H413.5 V70.0 H409.5 Z M409.5 169.0 H413.5 V175.0 H409.5 Z M417.6 64.0 H421.6 V70.0 H417.6 Z M417.6 169.0 H421.6 V175.0 H417.6 Z M425.7 64.0 H429.7 V70.0 H425.7 Z M425.7 169.0 H429.7 V175.0 H425.7 Z M433.8 64.0 H437.8 V70.0 H433.8 Z M433.8 169.0 H437.8 V175.0 H433.8 Z M441.8 64.0 H445.8 V70.0 H441.8 Z M441.8 169.0 H445.8 V175.0 H441.8 Z M449.9 64.0 H453.9 V70.0 H449.9 Z M449.9 169.0 H453.9 V175.0 H449.9 Z M458.0 64.0 H462.0 V70.0 H458.0 Z M458.0 169.0 H462.0 V175.0 H458.0 Z M466.1 64.0 H470.1 V70.0 H466.1 Z M466.1 169.0 H470.1 V175.0 H466.1 Z M474.1 64.0 H478.1 V70.0 H474.1 Z M474.1 169.0 H478.1 V175.0 H474.1 Z M482.2 64.0 H486.2 V70.0 H482.2 Z M482.2 169.0 H486.2 V175.0 H482.2 Z M490.3 64.0 H494.3 V70.0 H490.3 Z M490.3 169.0 H494.3 V175.0 H490.3 Z M498.4 64.0 H502.4 V70.0 H498.4 Z M498.4 169.0 H502.4 V175.0 H498.4 Z M506.4 64.0 H510.4 V70.0 H506.4 Z M506.4 169.0 H510.4 V175.0 H506.4 Z M514.5 64.0 H518.5 V70.0 H514.5 Z M514.5 169.0 H518.5 V175.0 H514.5 Z M522.6 64.0 H526.6 V70.0 H522.6 Z M522.6 169.0 H526.6 V175.0 H522.6 Z M530.7 64.0 H534.7 V70.0 H530.7 Z M530.7 169.0 H534.7 V175.0 H530.7 Z M538.8 64.0 H542.8 V70.0 H538.8 Z M538.8 169.0 H542.8 V175.0 H538.8 Z M546.8 64.0 H550.8 V70.0 H546.8 Z M546.8 169.0 H550.8 V175.0 H546.8 Z M554.9 64.0 H558.9 V70.0 H554.9 Z M554.9 169.0 H558.9 V175.0 H554.9 Z M563.0 64.0 H567.0 V70.0 H563.0 Z M563.0 169.0 H567.0 V175.0 H563.0 Z M571.0 64.0 H575.0 V70.0 H571.0 Z M571.0 169.0 H575.0 V175.0 H571.0 Z M579.1 64.0 H583.1 V70.0 H579.1 Z M579.1 169.0 H583.1 V175.0 H579.1 Z M587.2 64.0 H591.2 V70.0 H587.2 Z M587.2 169.0 H591.2 V175.0 H587.2 Z M595.3 64.0 H599.3 V70.0 H595.3 Z M595.3 169.0 H599.3 V175.0 H595.3 Z M603.3 64.0 H607.3 V70.0 H603.3 Z M603.3 169.0 H607.3 V175.0 H603.3 Z M611.4 64.0 H615.4 V70.0 H611.4 Z M611.4 169.0 H615.4 V175.0 H611.4 Z M619.5 64.0 H623.5 V70.0 H619.5 Z M619.5 169.0 H623.5 V175.0 H619.5 Z M627.6 64.0 H631.6 V70.0 H627.6 Z M627.6 169.0 H631.6 V175.0 H627.6 Z M635.6 64.0 H639.6 V70.0 H635.6 Z M635.6 169.0 H639.6 V175.0 H635.6 Z M643.7 64.0 H647.7 V70.0 H643.7 Z M643.7 169.0 H647.7 V175.0 H643.7 Z"/><animateTransform attributeName="transform" type="translate" from="0 0" to="-121.12 0" dur="2.4s" repeatCount="indefinite"/></g></g>
+<path class="scr" d="M254.1 62.0 H375.2 V177.0 H254.1 Z"/>
+<path pathLength="1" class="dl ac" d="M254.1 62.0 H375.2 V177.0 H254.1 Z"/>
+<path pathLength="1" class="dl ac" d="M254.1 46 V52 M254.1 49 H375.2 M375.2 46 V52"/>
+<text x="314.7" y="38" text-anchor="middle">1 frame = 15 perforations</text>
+<path pathLength="1" class="dl" d="M470 200 H150 M160 194 L150 200 L160 206"/>
+<path pathLength="1" class="dl" d="M94 70 V200 M88 190 L94 200 L100 190"/>
+<text x="50" y="252" text-anchor="middle">35mm</text><text class="small" x="50" y="267" text-anchor="middle">4 perforations</text>
+<text x="310" y="226" text-anchor="middle">IMAX 15/70: the film runs sideways</text>
+</svg>
+          <figcaption>A sketch of 35mm film and IMAX 15/70 film. The IMAX frame size comes from &ldquo;IMAX.&rdquo;</figcaption>
+          <button type="button" class="sk-btn" data-toggle="sk-film">Pause film</button>
+        </figure>
         <p>Most movies used to be shot on 35mm film, which runs up and down through the camera. IMAX turned the film sideways. Each picture (called a frame) is 15 perforations long. Perforations are the little holes on the edge of the film. The camera uses 65mm film and the theater shows it on 70mm film, so that is where the name 15/70 comes from <span class="cite">(&ldquo;IMAX&rdquo;)</span>.</p>
         <div class="big"><strong>&asymp;3&times;</strong><span>bigger than a normal 70mm frame (my math, using frame sizes from &ldquo;IMAX&rdquo;)</span></div>
         <p>A bigger frame means more detail, so the picture still looks sharp on a screen that is several stories tall.</p>
@@ -286,6 +312,19 @@ footer p{margin:0 0 8px}
 
       <article class="topic" data-id="origins" data-part="Nameplate" hidden>
         <h3 tabindex="-1">How IMAX started</h3>
+        <figure class="th-fig">
+<svg class="th" id="sk-dome" viewBox="0 0 520 280" role="img" aria-labelledby="sk-dome-t"><title id="sk-dome-t">Sketch of the Cinesphere in Toronto, a large dome-shaped theater, with tiny people in front of it for scale</title>
+<path pathLength="1" class="dl ac" d="M120.0 200.0 L120.5 188.2 L122.1 176.4 L124.8 164.8 L128.4 153.5 L133.1 142.6 L138.8 132.1 L145.3 122.1 L152.8 112.7 L161.0 103.9 L170.0 95.9 L179.7 88.7 L190.0 82.4 L200.8 76.9 L212.1 72.4 L223.8 68.8 L235.7 66.2 L247.8 64.7 L260.0 64.2 L260.0 64.2 L272.2 64.7 L284.3 66.2 L296.2 68.8 L307.9 72.4 L319.2 76.9 L330.0 82.4 L340.3 88.7 L350.0 95.9 L359.0 103.9 L367.2 112.7 L374.7 122.1 L381.2 132.1 L386.9 142.6 L391.6 153.5 L395.2 164.8 L397.9 176.4 L399.5 188.2 L400.0 200.0"/>
+<path pathLength="1" class="dl" d="M120.0 200.0 L124.8 208.8 L138.8 216.9 L161.0 223.9 L190.0 229.3 L223.8 232.7 L260.0 233.9 L296.2 232.7 L330.0 229.3 L359.0 223.9 L381.2 216.9 L395.2 208.8 L400.0 200.0 M124.8 164.8 L125.9 169.1 L135.1 177.4 L152.7 184.8 L177.7 190.8 L208.2 195.1 L242.3 197.3 L277.7 197.3 L311.8 195.1 L342.3 190.8 L367.3 184.8 L384.9 177.4 L394.1 169.1 L395.2 164.8 M138.8 132.1 L144.7 141.1 L161.9 149.3 L188.7 155.8 L222.5 160.0 L260.0 161.4 L297.5 160.0 L331.3 155.8 L358.1 149.3 L375.3 141.1 L381.2 132.1 M161.0 103.9 L162.9 108.6 L177.7 117.3 L205.0 123.9 L240.7 127.4 L279.3 127.4 L315.0 123.9 L342.3 117.3 L357.1 108.6 L359.0 103.9 M190.0 82.4 L199.4 90.8 L225.0 97.0 L260.0 99.3 L295.0 97.0 L320.6 90.8 L330.0 82.4 M223.8 68.8 L228.6 73.2 L260.0 77.6 L291.4 73.2 L296.2 68.8 M124.8 164.8 L120.0 200.0 M124.8 164.8 L124.8 208.8 M125.9 169.1 L120.0 200.0 M125.9 169.1 L124.8 208.8 M135.1 177.4 L120.0 200.0 M135.1 177.4 L124.8 208.8 M152.7 184.8 L138.8 216.9 M152.7 184.8 L120.0 200.0 M177.7 190.8 L161.0 223.9 M177.7 190.8 L190.0 229.3 M208.2 195.1 L190.0 229.3 M208.2 195.1 L223.8 232.7 M242.3 197.3 L223.8 232.7 M242.3 197.3 L260.0 233.9 M277.7 197.3 L296.2 232.7 M277.7 197.3 L260.0 233.9 M311.8 195.1 L330.0 229.3 M311.8 195.1 L296.2 232.7 M342.3 190.8 L359.0 223.9 M342.3 190.8 L330.0 229.3 M367.3 184.8 L381.2 216.9 M367.3 184.8 L400.0 200.0 M384.9 177.4 L400.0 200.0 M384.9 177.4 L395.2 208.8 M394.1 169.1 L400.0 200.0 M394.1 169.1 L395.2 208.8 M395.2 164.8 L400.0 200.0 M395.2 164.8 L395.2 208.8 M138.8 132.1 L124.8 164.8 M138.8 132.1 L125.9 169.1 M144.7 141.1 L124.8 164.8 M144.7 141.1 L125.9 169.1 M161.9 149.3 L152.7 184.8 M161.9 149.3 L135.1 177.4 M188.7 155.8 L177.7 190.8 M188.7 155.8 L208.2 195.1 M222.5 160.0 L208.2 195.1 M222.5 160.0 L242.3 197.3 M260.0 161.4 L242.3 197.3 M260.0 161.4 L277.7 197.3 M297.5 160.0 L311.8 195.1 M297.5 160.0 L277.7 197.3 M331.3 155.8 L342.3 190.8 M331.3 155.8 L311.8 195.1 M358.1 149.3 L367.3 184.8 M358.1 149.3 L384.9 177.4 M375.3 141.1 L395.2 164.8 M375.3 141.1 L394.1 169.1 M381.2 132.1 L395.2 164.8 M381.2 132.1 L394.1 169.1 M161.0 103.9 L138.8 132.1 M161.0 103.9 L144.7 141.1 M162.9 108.6 L138.8 132.1 M162.9 108.6 L144.7 141.1 M177.7 117.3 L161.9 149.3 M177.7 117.3 L188.7 155.8 M205.0 123.9 L188.7 155.8 M205.0 123.9 L222.5 160.0 M240.7 127.4 L222.5 160.0 M240.7 127.4 L260.0 161.4 M279.3 127.4 L297.5 160.0 M279.3 127.4 L260.0 161.4 M315.0 123.9 L331.3 155.8 M315.0 123.9 L297.5 160.0 M342.3 117.3 L358.1 149.3 M342.3 117.3 L331.3 155.8 M357.1 108.6 L381.2 132.1 M357.1 108.6 L375.3 141.1 M359.0 103.9 L381.2 132.1 M359.0 103.9 L375.3 141.1 M190.0 82.4 L161.0 103.9 M190.0 82.4 L177.7 117.3 M199.4 90.8 L205.0 123.9 M199.4 90.8 L177.7 117.3 M225.0 97.0 L205.0 123.9 M225.0 97.0 L240.7 127.4 M260.0 99.3 L240.7 127.4 M260.0 99.3 L279.3 127.4 M295.0 97.0 L315.0 123.9 M295.0 97.0 L279.3 127.4 M320.6 90.8 L315.0 123.9 M320.6 90.8 L342.3 117.3 M330.0 82.4 L359.0 103.9 M330.0 82.4 L342.3 117.3 M223.8 68.8 L225.0 97.0 M223.8 68.8 L199.4 90.8 M228.6 73.2 L225.0 97.0 M228.6 73.2 L199.4 90.8 M260.0 77.6 L260.0 99.3 M260.0 77.6 L225.0 97.0 M291.4 73.2 L295.0 97.0 M291.4 73.2 L320.6 90.8 M296.2 68.8 L295.0 97.0 M296.2 68.8 L320.6 90.8 M223.8 68.8 L260.0 64.2 M228.6 73.2 L260.0 64.2 M260.0 77.6 L260.0 64.2 M291.4 73.2 L260.0 64.2 M296.2 68.8 L260.0 64.2"/>
+<path pathLength="1" class="dl" d="M120 200 V230 M400 200 V230 M120 230 Q260 297.73813076790697 400 230"/>
+<path pathLength="1" class="dl" d="M120 200 Q260 267.73813076790697 400 200"/>
+<path pathLength="1" class="dl" d="M242.0 220.0 H278.0 V250.0 H242.0 Z"/>
+<path pathLength="1" class="dl" d="M30 268 H490"/>
+<path pathLength="1" class="dl sp" d="M78 268 L81 256 L84 268 M81 256 V246 M77 251 H85 M77.5 242.0 A3.5 3.5 0 1 0 84.5 242.0 A3.5 3.5 0 1 0 77.5 242.0 Z M92 268 L95 256 L98 268 M95 256 V246 M91 251 H99 M91.5 242.0 A3.5 3.5 0 1 0 98.5 242.0 A3.5 3.5 0 1 0 91.5 242.0 Z M420 268 L423 256 L426 268 M423 256 V246 M419 251 H427 M419.5 242.0 A3.5 3.5 0 1 0 426.5 242.0 A3.5 3.5 0 1 0 419.5 242.0 Z"/>
+<path class="lead" d="M352 92 L410 46"/><text x="404" y="50" text-anchor="end">The Cinesphere, Toronto (1971)</text>
+</svg>
+          <figcaption>A sketch of the Cinesphere in Toronto, the first permanent IMAX theater <span class="cite">(Acland)</span>.</figcaption>
+        </figure>
         <p>IMAX started in Canada. In 1967, Graeme Ferguson, Roman Kroitor, Robert Kerr and William Shaw started the company that became IMAX. The first IMAX movie, <em>Tiger Child</em>, played at Expo 70 in Osaka, Japan. The first permanent IMAX theater opened in Toronto in 1971 <span class="cite">(Acland)</span>.</p>
         <p>The hardest part was the projector. Moving frames that big through a projector smoothly was a real problem. The answer was the &ldquo;rolling loop,&rdquo; invented by an Australian engineer named Ron Jones. It moves the film in a smooth, wave-like motion, which keeps the giant picture steady and in focus <span class="cite">(Acland)</span>.</p>
         <p>I think this is the most important invention behind IMAX, because without it the huge frames could not be shown at all.</p>
@@ -303,12 +342,53 @@ footer p{margin:0 0 8px}
 
       <article class="topic" data-id="directors" data-part="Monitor" hidden>
         <h3 tabindex="-1">How directors use it</h3>
+        <figure class="th-fig">
+<svg class="th" id="sk-proj" viewBox="0 0 520 305" role="img" aria-labelledby="sk-proj-t"><title id="sk-proj-t">Animated sketch of a projectionist loading an IMAX film print onto a tall stack of spinning platters, with film running up to the projector</title>
+<path pathLength="1" class="dl" d="M14.0 34.0 H78.0 V234.0 H14.0 Z M66.0 70.0 A12 12 0 1 0 90.0 70.0 A12 12 0 1 0 66.0 70.0 Z M22.0 46.0 H70.0 V76.0 H22.0 Z"/>
+<path pathLength="1" class="dl" d="M100.0 100.0 A150 30 0 1 0 400.0 100.0 A150 30 0 1 0 100.0 100.0 Z M100 100 V105 M400 100 V105 M100 105 A150 30 0 0 0 400 105"/>
+<path pathLength="1" class="dl sp" d="M154.0 98.0 A96 19 0 1 0 346.0 98.0 A96 19 0 1 0 154.0 98.0 Z M216.0 98.0 A34 7 0 1 0 284.0 98.0 A34 7 0 1 0 216.0 98.0 Z"/>
+<circle class="dot" r="3.2"><animateMotion dur="6.0s" repeatCount="indefinite" path="M154.0 98.0 A96 19 0 1 0 346.0 98.0 A96 19 0 1 0 154.0 98.0 Z"/></circle>
+<path pathLength="1" class="dl" d="M100.0 160.0 A150 30 0 1 0 400.0 160.0 A150 30 0 1 0 100.0 160.0 Z M100 160 V165 M400 160 V165 M100 165 A150 30 0 0 0 400 165"/>
+<path pathLength="1" class="dl sp" d="M154.0 158.0 A96 19 0 1 0 346.0 158.0 A96 19 0 1 0 154.0 158.0 Z M216.0 158.0 A34 7 0 1 0 284.0 158.0 A34 7 0 1 0 216.0 158.0 Z"/>
+<circle class="dot" r="3.2"><animateMotion dur="7.5s" repeatCount="indefinite" path="M154.0 158.0 A96 19 0 1 0 346.0 158.0 A96 19 0 1 0 154.0 158.0 Z"/></circle>
+<path pathLength="1" class="dl" d="M100.0 220.0 A150 30 0 1 0 400.0 220.0 A150 30 0 1 0 100.0 220.0 Z M100 220 V225 M400 220 V225 M100 225 A150 30 0 0 0 400 225"/>
+<path pathLength="1" class="dl sp" d="M154.0 218.0 A96 19 0 1 0 346.0 218.0 A96 19 0 1 0 154.0 218.0 Z M216.0 218.0 A34 7 0 1 0 284.0 218.0 A34 7 0 1 0 216.0 218.0 Z"/>
+<circle class="dot" r="3.2"><animateMotion dur="9.0s" repeatCount="indefinite" path="M154.0 218.0 A96 19 0 1 0 346.0 218.0 A96 19 0 1 0 154.0 218.0 Z"/></circle>
+<path pathLength="1" class="dl" d="M250 100 V266 M190.0 270.0 A60 11 0 1 0 310.0 270.0 A60 11 0 1 0 190.0 270.0 Z"/>
+<path class="film" d="M250 98 V40 Q250 30 240 30 H92 Q80 30 80 42 V58"><animate attributeName="stroke-dashoffset" from="0" to="-12" dur=".6s" repeatCount="indefinite"/></path>
+<path pathLength="1" class="dl" d="M437.0 62.0 A15 15 0 1 0 467.0 62.0 A15 15 0 1 0 437.0 62.0 Z M444 60 H449 M455 60 H460 M452 77 V86 M430 88 H474 L470 190 H434 Z M434 172 H470 M438 190 L432 288 M466 190 L470 288 M432 94 Q414 128 398 156 M470 94 Q440 126 406 160 M440 50 Q452 42 464 50"/>
+<text x="46" y="24" text-anchor="middle">Projector</text>
+<text x="166" y="22" text-anchor="middle">Film</text>
+<text x="452" y="32" text-anchor="middle">Projectionist</text>
+<text x="250" y="298" text-anchor="middle">Platters hold the whole film</text>
+</svg>
+          <figcaption>A sketch of a projectionist loading an IMAX film print onto the platters.</figcaption>
+        </figure>
         <p>Most directors use IMAX cameras for their biggest scenes instead of the whole movie. Brad Bird filmed about 25 minutes of <em>Mission: Impossible &ndash; Ghost Protocol</em> in IMAX, and Michael Bay filmed about 10 minutes of <em>Transformers: Revenge of the Fallen</em> in IMAX <span class="cite">(&ldquo;IMAX&rdquo;)</span>.</p>
         <p>The reason is that the cameras are hard to work with. The old ones are so loud that it is hard to record people talking in quiet scenes <span class="cite">(&ldquo;IMAX&rdquo;)</span>. So for years, filmmakers shot the talking scenes on quieter cameras and saved IMAX for the action <span class="cite">(Leitner)</span>.</p>
       </article>
 
       <article class="topic" data-id="nolan" data-part="Viewfinder" hidden>
         <h3 tabindex="-1">Christopher Nolan</h3>
+        <figure class="th-fig">
+<svg class="th" id="sk-nolan" viewBox="0 0 560 300" role="img" aria-labelledby="sk-nolan-t"><title id="sk-nolan-t">Sketch of Christopher Nolan standing behind an IMAX film camera on a tripod, with the film reels turning in the magazine</title>
+<path pathLength="1" class="dl" d="M225 190 L150 292 M225 190 L225 296 M225 190 L300 292 M195.0 184.0 H255.0 V194.0 H195.0 Z"/>
+<path pathLength="1" class="dl" d="M150.0 120.0 H300.0 V185.0 H150.0 Z"/>
+<path pathLength="1" class="dl" d="M220.0 76.0 H324.0 V120.0 H220.0 Z"/>
+<path pathLength="1" class="dl sp" d="M234.0 98.0 A16 16 0 1 0 266.0 98.0 A16 16 0 1 0 234.0 98.0 Z"/>
+<g class="fade"><path class="reel" d="M250 86 V110 M238 98 H262"/><animateTransform attributeName="transform" type="rotate" from="0 250 98" to="360 250 98" dur="2.2s" repeatCount="indefinite"/></g>
+<path pathLength="1" class="dl sp" d="M278.0 98.0 A16 16 0 1 0 310.0 98.0 A16 16 0 1 0 278.0 98.0 Z"/>
+<g class="fade"><path class="reel" d="M294 86 V110 M282 98 H306"/><animateTransform attributeName="transform" type="rotate" from="0 294 98" to="360 294 98" dur="2.6s" repeatCount="indefinite"/></g>
+<path pathLength="1" class="dl ac" d="M96.0 132.0 H150.0 V172.0 H96.0 Z M88.0 152.0 A8 20 0 1 0 104.0 152.0 A8 20 0 1 0 88.0 152.0 Z M112 132 V172 M122 132 V172"/>
+<path pathLength="1" class="dl" d="M300 132 L344 118 L350 136 L304 148 Z M346.0 126.0 A6 14 0 1 0 358.0 126.0 A6 14 0 1 0 346.0 126.0 Z"/>
+<text class="logo" x="166" y="164">IMAX</text>
+<circle class="tally" cx="160" cy="129" r="3.5"><animate attributeName="opacity" values="1;.2;1" dur="1.4s" repeatCount="indefinite"/></circle>
+<path pathLength="1" class="dl" d="M360.0 110.0 A15 15 0 1 0 390.0 110.0 A15 15 0 1 0 360.0 110.0 Z M361 104 Q366 90 382 93 Q390 96 389 106 M372 125 V132 M352 136 H402 L414 262 H344 Z M378 136 V262 M360 262 L356 296 M398 262 L402 296 M356 142 Q336 150 318 150 M398 142 Q376 168 330 172"/>
+<path class="lead" d="M165 120 L140 62"/><text x="146" y="66" text-anchor="start">IMAX film camera</text>
+<path class="lead" d="M382 96 L420 46"/><text x="426" y="50" text-anchor="start">Christopher Nolan</text>
+</svg>
+          <figcaption>A sketch of Christopher Nolan with an IMAX film camera.</figcaption>
+        </figure>
         <p>Christopher Nolan is the director most connected to IMAX. Starting in 2008, he kept pushing it further.</p>
         <ul class="reel-list">
           <li><b>2008</b><div><em>The Dark Knight</em>: about 28 minutes in IMAX <span class="cite">(&ldquo;IMAX&rdquo;)</span>.</div></li>
@@ -519,16 +599,26 @@ footer p{margin:0 0 8px}
   var thAnims = [];
   function drawTheater(svg){
     thAnims.forEach(function(a){ a.cancel(); }); thAnims = [];
+    if (reduce && svg.pauseAnimations) svg.pauseAnimations();
     if (reduce || !svg.animate) return;
     svg.querySelectorAll('.dl').forEach(function(el, i){
       thAnims.push(el.animate([{strokeDashoffset:1},{strokeDashoffset:0}], {duration:1400, delay:i*25, easing:'ease-out', fill:'backwards'}));
     });
-    svg.querySelectorAll('.beam,.scr,.lead,text').forEach(function(el){
+    svg.querySelectorAll('.beam,.scr,.lead,text,.fade,.dot,.film,.tally').forEach(function(el){
       thAnims.push(el.animate([{opacity:0},{opacity:1}], {duration:600, delay:1300, fill:'backwards'}));
     });
     var mine = thAnims;
     setTimeout(function(){ if (thAnims === mine) { mine.forEach(function(a){ a.cancel(); }); thAnims = []; } }, 3500);
   }
+  document.querySelectorAll('.sk-btn[data-toggle]').forEach(function(btn){
+    var svg = document.getElementById(btn.getAttribute('data-toggle'));
+    if (!svg || !svg.pauseAnimations) { btn.hidden = true; return; }
+    if (reduce) { svg.pauseAnimations(); btn.textContent = 'Play film'; }
+    btn.addEventListener('click', function(){
+      if (svg.animationsPaused()) { svg.unpauseAnimations(); btn.textContent = 'Pause film'; }
+      else { svg.pauseAnimations(); btn.textContent = 'Play film'; }
+    });
+  });
   function open(id, from){
     opener = from || null;
     if (!sheet.open) {
